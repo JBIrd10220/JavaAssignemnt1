@@ -21,12 +21,24 @@ public class Order {
     private Date timeProcessed;
     private Date timeFulfilled;
     private String notes;
+   
     
-
    public Order (String customerID, String customerName)
    {
        this.customerID = customerID;
        this.customerName = customerName;
+   }
+   
+   public String makeOrder (String customerID, String customerName)
+   {
+       if (customerID.equals("") || customerName.equals(""))
+       {
+           return "ERROR: No Id or Name";
+       }
+       else 
+       {
+           return null;
+       }
    }
    
    public String getCustomerID()
