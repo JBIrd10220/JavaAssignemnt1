@@ -8,11 +8,10 @@ package javaassignment1;
 
 /**
  *
- * @author c0622834
+ * @author c0565705
  */
-public class Order {
+public class QueueOrders {
     
-    //This is our order class
-    //This is a second git test line
+    //This is another test line
     
 }
