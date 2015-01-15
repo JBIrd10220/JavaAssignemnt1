@@ -12,4 +12,6 @@ package javaassignment1;
  */
 public class Order {
     
+    //This is our order class
+    
 }
