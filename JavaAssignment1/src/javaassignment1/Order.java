@@ -23,8 +23,32 @@ public class Order {
     private String notes;
     
 
-    //This is our order class
-    //This is a second git test line
-
+   public Order (String customerID, String customerName)
+   {
+       this.customerID = customerID;
+       this.customerName = customerName;
+   }
+   
+   public String getCustomerID()
+   {
+       return customerID;
+   }
+   
+   public void setCustomerID(String customerID)
+   {
+       this.customerID = customerID;
+   }
+   
+   public String getCusomterName()
+   {
+       return customerName;
+   }
+   
+   public void setCustomerName(String customerName)
+   {
+       this.customerName = customerName;
+   }
+   
+   
     
 }
