@@ -14,6 +14,7 @@ import java.util.Date;
  */
 public class Order {
     
+
     private String customerID;
     private String customerName;
     private Date timeRecieved;
@@ -21,5 +22,9 @@ public class Order {
     private Date timeFulfilled;
     private String notes;
     
+
+    //This is our order class
+    //This is a second git test line
+
     
 }
