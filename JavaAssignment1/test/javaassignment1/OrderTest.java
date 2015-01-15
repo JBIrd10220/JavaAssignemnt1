@@ -39,9 +39,17 @@ public class OrderTest {
     }
 
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testNoIDOrName() {
+        String customerID = "";
+        String customerName = "";
+        
+        Order instance = new Order ();
+        
+        String expResult = "ERROR: No ID or Name";
+        String result = instance.makeOrder(customerID, customerName);
+        
+        
+        
     }
     
 }

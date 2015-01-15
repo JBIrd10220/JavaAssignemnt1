@@ -22,13 +22,13 @@ public class Order {
     private Date timeFulfilled;
     private String notes;
    
-    
+    /*
    public Order (String customerID, String customerName)
    {
        this.customerID = customerID;
        this.customerName = customerName;
    }
-   
+   */
    public String makeOrder (String customerID, String customerName)
    {
        if (customerID.equals("") || customerName.equals(""))
