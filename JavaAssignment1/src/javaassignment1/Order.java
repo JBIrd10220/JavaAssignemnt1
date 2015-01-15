@@ -6,12 +6,20 @@
 
 package javaassignment1;
 
+import java.util.Date;
+
 /**
  *
  * @author c0622834
  */
 public class Order {
     
-    //This is our order class
+    private String customerID;
+    private String customerName;
+    private Date timeRecieved;
+    private Date timeProcessed;
+    private Date timeFulfilled;
+    private String notes;
+    
     
 }
