@@ -8,7 +8,7 @@ package assingment1;
 
 /**
  *
- * @author c0622834
+ * @author Ryan and Jason
  */
 
 public class Assingment1 {
